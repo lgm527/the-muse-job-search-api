@@ -12,7 +12,6 @@ pages.each do |pageID|
   jobs = RestClient.get("https://www.themuse.com/api/public/jobs?page=#{pageID}")
   allJobs = JSON.parse(jobs)
   allJobs["results"].each do |job|
-    # binding.pry
     createJob(job["name"], job["contents"], job["locations"][0]["name"], job["company"]["name"], job["refs"]["landing_page"], job["levels"][0]["name"], job["categories"])
   end
 end
