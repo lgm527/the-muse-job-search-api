@@ -25,3 +25,7 @@
   to start the server running on a localhost (most likely http://localhost:3000/)
   
   in terminal run rails s 
+  
+  ### Front-end
+  
+  https://github.com/lgm527/the-muse-job-search-client
