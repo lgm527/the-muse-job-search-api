@@ -20,10 +20,8 @@
   
   rake db:migrate
 
-* Deployment instructions
+* Run instructions
 
   to start the server running on a localhost (most likely http://localhost:3000/)
   
   in terminal run rails s 
-
-
