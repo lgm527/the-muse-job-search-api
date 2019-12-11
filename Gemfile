@@ -44,6 +44,9 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+# parse json to seed into database
 gem 'rest-client'
 gem 'json'
+
+#debugging
 gem 'pry'
