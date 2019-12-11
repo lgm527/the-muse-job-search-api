@@ -1,24 +1,31 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+# The Muse Job Board
 
 * Ruby version
 
-* System dependencies
+  2.6.1
 
 * Configuration
 
-* Database creation
+  clone repo from github to local device
+  
+  in terminal run bundle install
 
-* Database initialization
+* Database creation & initialization
 
-* How to run the test suite
+  in terminal run the following commands, with postgreSQL running:
+  
+  rake db:create 
+  
+  rake db:seed
+  
+  rake db:migrate
 
-* Services (job queues, cache servers, search engines, etc.)
+* Run instructions
 
-* Deployment instructions
-
-* ...
+  to start the server running on a localhost (most likely http://localhost:3000/)
+  
+  in terminal run rails s 
+  
+  ### Front-end
+  
+  https://github.com/lgm527/the-muse-job-search-client
